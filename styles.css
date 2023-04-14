@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+.container{
+	display: flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+   align-items:center;
+	background-color:SlateBlue;
+	height:150px;
+}
+.btn{
+	
+}
