@@ -8,13 +8,17 @@
 
 <body>
 	<div class="container">
-		<button class="btn"></button>
-		<button class="btn"></button>
-		<button class="btn"></button>
-		<button class="btn"></button>
-		<button class="btn"></button>
-		<button class="btn"></button>
-		<button class="stop"></button>
+		<audio id="myAudio">
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+		<button onclick="playAudio()" type="button" class="btn" id="applause">applause</button>
+		<button onclick="playAudio()" type="button" class="btn" id="boo">boo</button>
+		<button onclick="playAudio()" type="button" class="btn" id="gasp">gasp</button>
+		<button onclick="playAudio()" type="button" class="btn" id="tada">tada</button>
+		<button onclick="playAudio()" type="button" class="btn" id="victory">victory</button>
+		<button onclick="playAudio()" type="button" class="btn" id="wrong">wrong</button>
+		<button onclick="pauseAudio()" type="button" class="stop" id="stop">stop</button>
         </table>
 		
 	</div>

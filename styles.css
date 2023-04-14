@@ -4,9 +4,11 @@
   flex-flow:row wrap;
   justify-content:space-around;
    align-items:center;
-	background-color:SlateBlue;
+	background-color: #bb8fce ;
 	height:150px;
 }
-.btn{
-	
+.btn , .stop{
+	background-color: #6c3483 ;
+	color:#ffff;
+	padding:10px;
 }
